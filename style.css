@@ -1,0 +1,419 @@
+/* Hover Blocks */
+/* Main wrapper - desktop */
+@media only screen and (min-width: 960px) {
+.wrap-dist {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 200px;
+	height: 8250px;
+	}}
+/* Main wrapper - tablet */
+@media only screen and (max-width: 959px) and (min-width: 450px) {
+.wrap-dist {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 200px;
+	height: 9950px;
+	}}
+/* Main wrapper - mobile */
+@media only screen and (max-width: 449px) {
+.wrap-dist {
+  display: block;
+  width: 200px;
+	height: 6360px;
+	}}
+/* Div wrapper - desktop */
+@media only screen and (min-width: 960px) {
+.wrap-dist > div  {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column; 
+	width: 100%; 
+	margin: 10% 30%;
+	min-height: 500px;
+	width: 480px !important;
+	height: 480px !important;
+	}}
+/* Div wrapper - tablet */
+@media only screen and (max-width: 959px) and (min-width: 450px) {
+.wrap-dist > div  {
+	display: flex;
+	justify-content: center;
+	flex-direction: column; 
+	}}
+/* Div wrapper - mobile */
+@media only screen and (max-width: 449px) {
+.wrap-dist > div  {
+	display: block;
+  margin-left: 6%;
+  margin-right: auto;
+	width: 480px !important;
+	height: 480px !important;
+	}}
+/* Hover text */
+#dis:hover #h-sub {
+	opacity: 1;
+	transition: opacity .5s;
+}
+#dis:hover #h-heading {
+	opacity: 1;
+	transition: opacity .5s;
+}
+#dis:hover #h-line {
+	opacity: 1;
+	transition: opacity .5s;
+}
+/* Margin top/bottom */
+@media only screen and (min-width: 720px) {
+.distort, .distort2, .distort3, .distort4, .distort5, .distort6, .distort7, .distort8, .distort9, .distort10, .distort11, .distort12  {
+	margin-top: 200px !important;
+	margin-bottom: 200px !important;
+	}}
+@media only screen and (max-width: 719px) {
+.distort, .distort2, .distort3, .distort4, .distort5, .distort6, .distort7, .distort8, .distort9, .distort10, .distort11, .distort12  {
+	margin-top: 200px !important;
+	margin-bottom: 200px !important;
+	}}
+/* Hover Images */
+/* Image 1  - desktop */
+@media only screen and (min-width: 960px) {
+.wrap-dist > .distort > canvas  {
+	width: 480px !important;
+	height: 560px !important;
+	margin-left: 30vw;
+	z-index: -1 !important;
+	}}
+/* Image 1  - tablet */
+@media only screen and (max-width: 959px) and (min-width: 450px) {
+.wrap-dist > .distort > canvas  {
+	width: 460px !important;
+	height: 560px !important;
+	margin-left: 40%;
+	z-index: -1 !important;
+	}}
+/* Image 2  - desktop */
+@media only screen and (min-width: 960px) {
+.wrap-dist > .distort2 > canvas  {
+	width: 460px !important;
+	height: 570px !important;
+	margin-left: -40vw;
+	z-index: -1 !important;
+	}}
+/* Image 2  - tablet */
+@media only screen and (max-width: 959px) and (min-width: 450px) {
+.wrap-dist > .distort2 > canvas  {
+	width: 460px !important;
+	height: 580px !important;
+	margin-left: 5vw;
+	z-index: -1 !important;
+	}}
+/* Image 3  - desktop */
+@media only screen and (min-width: 960px) {
+.wrap-dist > .distort3 > canvas  {
+	width: 460px !important;
+	height: 650px !important;
+	z-index: -1 !important;
+	}}
+/* Image 3  - tablet */
+@media only screen and (max-width: 959px) and (min-width: 450px) {
+.wrap-dist > .distort3 > canvas  {
+	width: 480px !important;
+	height: 580px !important;
+	margin-left: 15vw;
+	z-index: -1 !important;
+	}}
+/* Image 4  - desktop */
+@media only screen and (min-width: 960px) {
+.wrap-dist > .distort4 > canvas  {
+	width: 480px !important;
+	height: 540px !important;
+	margin-left: 30vw;
+	z-index: -1 !important;
+	}}
+/* Image 4  - tablet */
+@media only screen and (max-width: 959px) and (min-width: 450px) {
+.wrap-dist > .distort4 > canvas  {
+	width: 480px !important;
+	height: 540px !important;
+	margin-left: 40%;
+	z-index: -1 !important;
+	}}
+/* Image 5  - desktop */
+@media only screen and (min-width: 960px) {
+.wrap-dist > .distort5 > canvas  {
+	width: 480px !important;
+	height: 560px !important;
+	margin-left: -40vw;
+	z-index: -1 !important;
+	}}
+/* Image 5  - tablet */
+@media only screen and (max-width: 959px) and (min-width: 450px) {
+.wrap-dist > .distort5 > canvas  {
+	width: 450px !important;
+	height: 580px !important;
+	margin-left: 5vw;
+	z-index: -1 !important;
+	}}
+/* Image 6  - desktop */
+@media only screen and (min-width: 960px) {
+.wrap-dist > .distort6 > canvas  {
+	width: 480px !important;
+	height: 550px !important;
+	z-index: -1 !important;
+	}}
+/* Image 6  - tablet */
+@media only screen and (max-width: 959px) and (min-width: 450px) {
+.wrap-dist > .distort6 > canvas  {
+	width: 480px !important;
+	height: 580px !important;
+	margin-left: 15vw;
+	z-index: -1 !important;
+	}}
+/* Image 7  - desktop */
+@media only screen and (min-width: 960px) {
+.wrap-dist > .distort7 > canvas  {
+	width: 480px !important;
+	height: 520px !important;
+	margin-left: 30vw;
+	z-index: -1 !important;
+	}}
+/* Image 7  - tablet */
+@media only screen and (max-width: 959px) and (min-width: 450px) {
+.wrap-dist > .distort7 > canvas  {
+	width: 480px !important;
+	height: 520px !important;
+	margin-left: 40%;
+	z-index: -1 !important;
+	}}
+/* Image 8  - desktop */
+@media only screen and (min-width: 960px) {
+.wrap-dist > .distort8 > canvas  {
+	width: 480px !important;
+	height: 500px !important;
+	margin-left: -40vw;
+	z-index: -1 !important;
+	}}
+/* Image 8  - tablet */
+@media only screen and (max-width: 959px) and (min-width: 450px) {
+.wrap-dist > .distort8 > canvas  {
+	width: 450px !important;
+	height: 580px !important;
+	margin-left: 5vw;
+	z-index: -1 !important;
+	}}
+/* Image 9  - desktop */
+@media only screen and (min-width: 960px) {
+.wrap-dist > .distort9 > canvas  {
+	width: 480px !important;
+	height: 570px !important;
+	z-index: -1 !important;
+	}}
+/* Image 9  - tablet */
+@media only screen and (max-width: 959px) and (min-width: 450px) {
+.wrap-dist > .distort9 > canvas  {
+	width: 480px !important;
+	height: 580px !important;
+	margin-left: 15vw;
+	z-index: -1 !important;
+	}}
+/* Image 10  - desktop */
+@media only screen and (min-width: 960px) {
+.wrap-dist > .distort10 > canvas  {
+	width: 480px !important;
+	height: 560px !important;
+	margin-left: 30vw;
+	z-index: -1 !important;
+	}}
+/* Image 10  - tablet */
+@media only screen and (max-width: 959px) and (min-width: 450px) {
+.wrap-dist > .distort10 > canvas  {
+	width: 480px !important;
+	height: 560px !important;
+	margin-left: 40%;
+	z-index: -1 !important;
+	}}
+/* Image 11  - desktop */
+@media only screen and (min-width: 720px) {
+.wrap-dist > .distort11 > canvas  {
+	width: 460px !important;
+	height: 550px !important;
+	margin-left: -40vw;
+	z-index: -1 !important;
+	}}
+/* Image 11  - tablet */
+@media only screen and (max-width: 959px) and (min-width: 450px) {
+.wrap-dist > .distort11 > canvas  {
+	width: 450px !important;
+	height: 580px !important;
+	margin-left: 5vw;
+	z-index: -1 !important;
+	}}
+/* Image 12  - desktop */
+@media only screen and (min-width: 720px) {
+.wrap-dist > .distort12 > canvas  {
+	width: 480px !important;
+	height: 520px !important;
+	z-index: -1 !important;
+	}}
+/* Image 12  - tablet */
+@media only screen and (max-width: 959px) and (min-width: 450px) {
+.wrap-dist > .distort12 > canvas  {
+	width: 480px !important;
+	height: 580px !important;
+	margin-left: 15vw;
+	z-index: -1 !important;
+	}}
+/* All - mobile */
+@media only screen and (max-width: 449px) {
+.wrap-dist > div > canvas  {
+	width: 85vw !important;
+	height: 60vh !important;
+	z-index: -1 !important;
+	}}
+/* Hover Text */
+/* All left headings - desktop */
+@media only screen and (min-width: 960px) {
+.distort-heading-left {
+	opacity: 0;
+	margin: 27% 0 -45% -40%;
+	letter-spacing: 25px;
+	}}
+/* All left headings - tablet */
+@media only screen and (max-width: 959px) and (min-width: 450px) {
+.distort-heading-left {
+	opacity: 1;
+	margin-left: 40%;
+	letter-spacing: 25px;
+	}}
+/* All left headings - mobile */
+@media only screen and (max-width: 449px)  {
+.distort-heading-left {
+	opacity: 1;
+	letter-spacing: 25px;
+	}}
+/* All left text - desktop */
+@media only screen and (min-width: 960px) {
+.distort-sub-left {
+	opacity: 0;
+	margin: 47% 0 -54.7% -65%;
+	letter-spacing: 3px;
+	font-size: 17px;
+	}}
+/* All left text - tablet */
+@media only screen and (max-width: 959px) and (min-width: 450px) {
+.distort-sub-left {
+	margin-left: 40%;
+	letter-spacing: 3px;
+	font-size: 17px;
+	}}
+/* All left line - desktop */
+@media only screen and (min-width: 960px) {
+hr.distort-line-left {
+	margin: 50.7% 0 -50% -38%;
+	opacity: 0;
+  border: 0.5px solid #000;
+	border-top: 0 solid #000;
+	width: 70px;
+	}}
+@media only screen and (max-width: 959px) {
+hr.distort-line-left {
+	display: none;
+	}}
+/* All right headings - desktop */
+@media only screen and (min-width: 960px) {
+.distort-heading-right {
+	opacity: 0;
+	margin: 37% 0 -57% 50%;
+	letter-spacing: 25px;
+	}}
+/* All right headings - tablet */
+@media only screen and (max-width: 959px) and (min-width: 450px) {
+.distort-heading-right {
+	margin-left: 5vw;
+	letter-spacing: 25px;
+	}}
+/* All right headings - mobile */
+@media only screen and (max-width: 449px)  {
+.distort-heading-right {
+	opacity: 1;
+	letter-spacing: 25px;
+	}}
+/* All right text - desktop */
+@media only screen and (min-width: 960px) {
+.distort-sub-right {
+	opacity: 0;
+	margin: 61% 0 -66.5% 49%;
+	letter-spacing: 3px;
+	font-size: 17px;
+	}}
+/* All right text - tablet */
+@media only screen and (max-width: 959px) and (min-width: 450px) {
+.distort-sub-right {
+	margin-left: 5vw;
+	letter-spacing: 3px;
+	font-size: 17px;
+	}}
+/* All right line - desktop */
+@media only screen and (min-width: 960px) {
+hr.distort-line-right {
+	margin: 62.7% 0 -50% 20%;
+	opacity: 0;
+  border: 0.5px solid #000;
+	border-top: 0 solid #000;
+	width: 70px;
+	}}
+@media only screen and (max-width: 959px) {
+hr.distort-line-right {
+	display: none;
+	}}
+/* All center headings - desktop */
+@media only screen and (min-width: 960px) {
+.distort-heading-center {
+	opacity: 0;
+	margin: 37% 0 -57% -130%;
+	letter-spacing: 25px;
+	}}
+/* All center headings - tablet */
+@media only screen and (max-width: 959px) and (min-width: 450px) {
+.distort-heading-center {
+	margin-left: 15vw;
+	letter-spacing: 25px;
+	}}
+/* All center headings - mobile */
+@media only screen and (max-width: 449px)  {
+.distort-heading-center {
+	opacity: 1;
+	letter-spacing: 25px;
+	}}
+/* All center text - desktop */
+@media only screen and (min-width: 960px) {
+.distort-sub-center {
+	opacity: 0;
+	margin: 61% 0 -66.5% 139%;
+	letter-spacing: 3px;
+	font-size: 17px;
+	}}
+/* All center text - tablet */
+@media only screen and (max-width: 959px) and (min-width: 450px) {
+.distort-sub-center {
+	margin-left: 15vw;
+	letter-spacing: 3px;
+	font-size: 17px;
+	}}
+/* All center line - desktop */
+@media only screen and (min-width: 960px) {
+hr.distort-line-center {
+	margin: 62.7% 0 -50% 110%;
+	opacity: 0;
+  border: 0.5px solid #000;
+	border-top: 0 solid #000;
+	width: 70px;
+	}}
+@media only screen and (max-width: 959px) {
+hr.distort-line-center {
+	display: none;
+	}}
+/* End hover effect */
